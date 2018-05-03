@@ -329,7 +329,11 @@ form .submit:active {
    margin-top: 128px;
    left: 0;
    width: 100%;
-   background: -webkit-linear-gradient(45deg, #1c84a9, #1ca988);
+   background: url(hero.jpg) no-repeat 50% 50%;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
    color: white;
    text-align: center;
 }
